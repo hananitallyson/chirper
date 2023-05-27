@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\Chirp;
+use Illuminate\View\View;
+use Illuminate\Http\Request;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Http\Request;
-use Illuminate\View\View;
 
 class ChirpController extends Controller
 {
